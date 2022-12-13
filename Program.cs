@@ -190,7 +190,7 @@ namespace ConsoleApp17
                     if ((char.IsDigit(siyahi[i])))
                     {
                         has = true;
-                        return siyahi[i];
+                       
 
                     }
                     else
