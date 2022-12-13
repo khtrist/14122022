@@ -23,6 +23,21 @@ namespace ConsoleApp17
                 nums[i] = number;
 
             }
+            
+            //Verilmiş yazılar siyahısındaki (string array) verilmiş yazının yerləşdiyi indexi qaytaran metod.
+            //Əgər verilmiş string array-de verilmiş string dəyər yoxdursa -1 qaytarsın
+            
+             Console.WriteLine("Daxil et");
+            var wordStr = Console.ReadLine();    
+            var wordNum = Convert.ToInt32(wordStr);
+            string[] listword= wordStr.Split(',');
+            for (int i = 0; i < listword.Length; i++)
+            {
+                var numberStr = Console.ReadLine();
+                listword[i] = numberStr;
+            }
+            var result = Siyahi(listword);
+            Console.WriteLine(result);
 
 
             
@@ -113,24 +128,24 @@ namespace ConsoleApp17
             //Verilmiş yazılar siyahısındaki (string array) verilmiş yazının yerləşdiyi indexi qaytaran metod.
             //Əgər verilmiş string array-de verilmiş string dəyər yoxdursa -1 qaytarsın
 
-            static string Siyahi(String[] word)
+             static int Siyahi(String[] word)
             {
-                string index = word;
+            var count = 0;
 
                 for (int i = 0; i < word.Length; i++)
                 {
-                    if (word[i] == word)
-                    {
-                        index = word[i];
-                        return index;
-                    }
-                    else
-                    {
-                        return -1;
-                    }
-                }
+                   if (word[i] == "string array")
+                     {
+                        count++;
+                     }
 
+                     else
+                     {
+                       return -1;
+                     }
             }
+            return count;
+
 
             //Verilmiş ədədlər siyahısındaki ədədlərin yalnız müsbət olanlarından ibarət yeni bir array
             //qaytaran metod.Yəni metodu işə salın {4,-5,3,-2,6}
