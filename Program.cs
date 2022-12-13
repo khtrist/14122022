@@ -204,20 +204,21 @@ namespace ConsoleApp17
 
 
             
-            static bool  verilen(string siyahi)
+            static int  verilen(string siyahi)
             {
-                var has = false;
+                var has = 0;
                 for (int i = 0; i < siyahi.Length; i++)
                 {
                     if ((char.IsDigit(siyahi[i])))
                     {
-                        has = true;
-                       
-
+                        return char.IsDigit
+                        
                     }
+                    
+                    
                     else
                     {
-                        has = false;
+                        break;
                     }
                 }
                 return result;
