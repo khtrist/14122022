@@ -1,0 +1,14 @@
+D:\Visual Studi Code Academy Lessons or\ConsoleApp17\bin\Debug\netcoreapp3.1\ConsoleApp17.exe
+D:\Visual Studi Code Academy Lessons or\ConsoleApp17\bin\Debug\netcoreapp3.1\ConsoleApp17.deps.json
+D:\Visual Studi Code Academy Lessons or\ConsoleApp17\bin\Debug\netcoreapp3.1\ConsoleApp17.runtimeconfig.json
+D:\Visual Studi Code Academy Lessons or\ConsoleApp17\bin\Debug\netcoreapp3.1\ConsoleApp17.runtimeconfig.dev.json
+D:\Visual Studi Code Academy Lessons or\ConsoleApp17\bin\Debug\netcoreapp3.1\ConsoleApp17.dll
+D:\Visual Studi Code Academy Lessons or\ConsoleApp17\bin\Debug\netcoreapp3.1\ConsoleApp17.pdb
+D:\Visual Studi Code Academy Lessons or\ConsoleApp17\obj\Debug\netcoreapp3.1\ConsoleApp17.csproj.AssemblyReference.cache
+D:\Visual Studi Code Academy Lessons or\ConsoleApp17\obj\Debug\netcoreapp3.1\ConsoleApp17.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studi Code Academy Lessons or\ConsoleApp17\obj\Debug\netcoreapp3.1\ConsoleApp17.AssemblyInfoInputs.cache
+D:\Visual Studi Code Academy Lessons or\ConsoleApp17\obj\Debug\netcoreapp3.1\ConsoleApp17.AssemblyInfo.cs
+D:\Visual Studi Code Academy Lessons or\ConsoleApp17\obj\Debug\netcoreapp3.1\ConsoleApp17.csproj.CoreCompileInputs.cache
+D:\Visual Studi Code Academy Lessons or\ConsoleApp17\obj\Debug\netcoreapp3.1\ConsoleApp17.dll
+D:\Visual Studi Code Academy Lessons or\ConsoleApp17\obj\Debug\netcoreapp3.1\ConsoleApp17.pdb
+D:\Visual Studi Code Academy Lessons or\ConsoleApp17\obj\Debug\netcoreapp3.1\ConsoleApp17.genruntimeconfig.cache
