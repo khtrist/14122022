@@ -180,6 +180,7 @@ namespace ConsoleApp17
             //Verilmiş yazılar siyahısında neçə yazıda rəqəm olduğunu qaytaran metod
 
 
+            
             static bool  verilen(string siyahi)
             {
                 var has = false;
@@ -188,7 +189,7 @@ namespace ConsoleApp17
                     if ((char.IsDigit(siyahi[i])))
                     {
                         has = true;
-                        break;
+                        return siyahi[i];
 
                     }
                     else
@@ -196,11 +197,10 @@ namespace ConsoleApp17
                         has = false;
                     }
                 }
-                return has;
+                return result;
 
 
             }
-
 
 
 
