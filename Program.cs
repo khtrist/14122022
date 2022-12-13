@@ -94,12 +94,13 @@ namespace ConsoleApp17
             static int boyukededindeks(int[] numbers)
             {
                 int max = numbers[0];
+                int enboyuk = 0 ;
                 for (int i = 1; i < numbers.Length; i++)
                 {
                     if (numbers[i] > max)
                     {
                         max = numbers[i];
-                        max = i;
+                        enboyuk = i;
                     }
                     
                 }
