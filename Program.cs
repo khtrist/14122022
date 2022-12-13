@@ -128,23 +128,30 @@ namespace ConsoleApp17
             //Verilmiş yazılar siyahısındaki (string array) verilmiş yazının yerləşdiyi indexi qaytaran metod.
             //Əgər verilmiş string array-de verilmiş string dəyər yoxdursa -1 qaytarsın
 
-             static int Siyahi(String[] word)
+       static int Siyahi(String[] word)
+        {
+            var cem = 0;
+
+            for (int i = 0; i < word.Length; i++)
             {
-            var count = 0;
-
-                for (int i = 0; i < word.Length; i++)
+                if (word[i] == "string array")
                 {
-                   if (word[i] == "string array")
-                     {
-                        count++;
-                     }
+                    cem++;
+                    
+                }
 
-                     else
-                     {
-                       return -1;
-                     }
+                else
+                {
+                    return -1;
+                }
             }
-            return count;
+           return cem;
+                
+
+        }
+
+                 
+            
 
 
             //Verilmiş ədədlər siyahısındaki ədədlərin yalnız müsbət olanlarından ibarət yeni bir array
